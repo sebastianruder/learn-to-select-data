@@ -187,7 +187,7 @@ If you make use of the contents of this repository, we appreciate citing the fol
 @inproceedings{ruder2017select,
   title={{Learning to select data for transfer learning with Bayesian Optimization}},
   author={Ruder, Sebastian and Plank, Barbara},
-  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processin},
+  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
   year={2017}
 }
 ```
