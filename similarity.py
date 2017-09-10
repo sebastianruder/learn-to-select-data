@@ -18,7 +18,7 @@ import scipy.spatial.distance
 def jensen_shannon_divergence(repr1, repr2):
     """Calculates Jensen-Shannon divergence (https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence)."""
     avg_repr = 0.5 * (repr1 + repr2)
-    sim = 1 - 0.5 * (scipy.stats.entropy(repr1, avg_repr) + scipy.stats.entropy(repr1, avg_repr))
+    sim = 1 - 0.5 * (scipy.stats.entropy(repr1, avg_repr) + scipy.stats.entropy(repr2, avg_repr))
     if np.isinf(sim):
         # the similarity is -inf if no term in the document is in the vocabulary
         return 0
