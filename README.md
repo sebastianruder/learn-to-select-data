@@ -38,6 +38,7 @@ Kiperwasser and Goldberg (2016).
 - `bayes_opt.py`: The main logic for running Bayesian Optimization.
 - `constants.py`: Constants that are shared across all files.
 - `data_utils.py`: Utility methods for data reading and processing.
+- `features.py`: Methods for generating feature representations.
 - `similarity.py`: Methods for measuring domain similarity.
 - `simpletagger.py`: Code for running the Structured Perceptron POS tagger.
 - `task_utils.py`: Utility methods for training and evaluation.
